@@ -13,7 +13,7 @@ public class SpringBootAbmApplication {
         ConfigurableApplicationContext ctx = new SpringApplicationBuilder(SpringBootAbmApplication.class)
                 .properties("spring.config.location:src/main/resources/").headless(false).run(args);
 
-        // JFrame frame = ctx.getBean(FirstProject.class);
+        // JFrame frame = ctx.getBean(ABM_Form.class);
         // frame.setVisible(true);
 
     }
